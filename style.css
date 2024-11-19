@@ -2,7 +2,15 @@ body {
     background-color: grey;
 }
 .container {
-    background(rebeccapurple);
-    
-
+    background-color: rebeccapurple;
+    border:black solid 5px;
+    box-shadow: red 0px 5px 10px;
+    height: 400px;
+    width: 400px;
+    text-align: center ;
+    position: relative;
+}
+div {
+    flex-direction:row;
+    flex: auto;
 }
